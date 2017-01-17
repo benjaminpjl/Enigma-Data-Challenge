@@ -33,7 +33,7 @@ data_state = data_state.sort_values(by=['lca_case_number'], ascending=False)
 data_state.plot(kind= 'bar', grid = False, legend = None)
 plt.xlabel('State')
 plt.ylabel('Number of applications')
-#plt.show()
+
 
 ##Clustering job position 
 ##Find the 50 top keywords for the clustering
